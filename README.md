@@ -1,0 +1,6 @@
+基于Unity GUI开发的UI控件小工具，可以实现屏幕分辨率自适应：
+可以通过Screen_Alignment_Type和Control_Center_Alignment_Type分别设置控件相对屏幕坐标系的对齐位置的自身锚点位置，并调整便宜位置Pos以打成分辨率自适应；
+通过 Style On Or Off选项打开自定义样式；
+Root控件作为根节点，其他UI控件作为其子物体，相当于UGUI的Canvas；
+通过每个空间中的委托为其行为注册事件；
+GUI样式相关设置参数请自行查阅官方文档。
